@@ -1,23 +1,8 @@
 import "package:flutter/material.dart";
-
+import 'package:my_app/model/day2.dart';
 void main() {
   runApp(MaterialApp(
-    home: SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.orange,
-          title: const Text("Bai tap ngay 1")
-        ),
-        body: const Center(
-          child: Column(
-            mainAxisAlignment:MainAxisAlignment.center,
-            children: [
-              Text("Hoc Flutter that thu vi"),
-              Text("Co gang len moi ngay"),
-            ],
-          )
-        )
-      ),
-      ),
+    home: Day2Screen(),    
+    debugShowCheckedModeBanner: false,
   ));
 }

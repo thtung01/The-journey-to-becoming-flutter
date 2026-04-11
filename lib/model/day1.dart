@@ -1,23 +1,23 @@
 import "package:flutter/material.dart";
 
-void main() {
-  runApp(MaterialApp(
-    home: SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.orange,
-          title: const Text("Bai tap ngay 1")
+class Day1Screen extends StatelessWidget {
+  const Day1Screen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Bai tap ngay 1"),
+        backgroundColor: Colors.orange,
+      ),
+      body: const Center(
+        child: Column(
+          children: [
+            Text("Learning Flutter is so interesting"),
+            Text("Try to do it every day"),
+          ],
+          ),
         ),
-        body: const Center(
-          child: Column(
-            mainAxisAlignment:MainAxisAlignment.center,
-            children: [
-              Text("Hoc Flutter that thu vi"),
-              Text("Co gang len moi ngay"),
-            ],
-          )
-        )
-      ),
-      ),
-  ));
+    );
+  }
 }
