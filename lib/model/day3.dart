@@ -22,7 +22,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children:  [
                   Text("Nguyen Thanh Tung", style: TextStyle(fontSize: 20, color: Colors.red)),
-                  Text("Age: 20", style: TextStyle(fontSize: 20, color: Colors.red)),
+                  Text("Age: 19", style: TextStyle(fontSize: 20, color: Colors.red)),
                   Text("From Thai Binh", style: TextStyle(fontSize: 20, color: Colors.red)),
                 ],
                 ),

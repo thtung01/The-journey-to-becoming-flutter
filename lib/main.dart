@@ -1,8 +1,9 @@
 import "package:flutter/material.dart";
-import 'model/day3.dart';
+import "/model/day4.dart";
+
 void main() {
   runApp(MaterialApp(
-    home: Day3Screen(),
-      debugShowCheckedModeBanner:false,
+    home: Day4Screen(),
+    debugShowCheckedModeBanner: false, 
     ));
 }
