@@ -1,0 +1,1 @@
+//hom nay la ngay7 va toi bi om, nen khong hoc :))
