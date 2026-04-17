@@ -1,0 +1,1 @@
+// ốm, không biết mình đang đi theo con đường nào
